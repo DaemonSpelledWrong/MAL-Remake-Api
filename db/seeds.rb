@@ -85,3 +85,27 @@ Anime.create(
   synopsis: 'Watch it to find out',
   background: 'Idk your desktop background, sorry.'
 )
+
+Manga.create(
+  title: 'Test 1',
+  url: 'test.com',
+  volumes: 7,
+  chapters: 69,
+  status: 'Completed',
+  publishing: false,
+  score: 6.9,
+  synopsis: 'Lorem dipshit',
+  background: 'Ippsum cookies'
+)
+
+Manga.create(
+  title: 'Test 2',
+  url: 'test.com',
+  volumes: 1,
+  chapters: 13,
+  status: 'Completed',
+  publishing: false,
+  score: 6.9,
+  synopsis: 'Lorem dipshit',
+  background: 'Ippsum cookies'
+)
