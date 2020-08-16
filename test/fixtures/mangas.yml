@@ -4,8 +4,26 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+one: {
+  title: 'Test 1',
+  url: 'test.com',
+  volumes: 7,
+  chapters: 69,
+  status: 'Completed',
+  publishing: false,
+  score: 6.9,
+  synopsis: 'Lorem dipshit',
+  background: 'Ippsum cookies'
+}
+
+two: {
+  title: 'Test 2',
+  url: 'test.com',
+  volumes: 1,
+  chapters: 16,
+  status: 'Completed',
+  publishing: false,
+  score: 8.3,
+  synopsis: 'K',
+  background: 'Naisu'
+}
