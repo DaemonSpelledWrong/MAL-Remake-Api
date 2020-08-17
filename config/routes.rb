@@ -2,4 +2,5 @@
 
 Rails.application.routes.draw do
   resources :animes, only: %i[index show]
+  resources :mangas, only: %i[index show]
 end
